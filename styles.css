@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+#mainHeading{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    
+}
+
+.main_content{
+    display: flex;
+    justify-content:space-around;
+    padding: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+button{
+    margin: 1rem;
+    padding: 3px 2px;
+    background-color: burlywood;
+    border: solid 1px #fff;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 270ms;
+
+}
+
+button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+    padding: 7px 5px;
+}
+
+.heroSection{
+display: flex;
+}
+
+#h1Result{
+    display: flex;
+    
+}
+
